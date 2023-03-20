@@ -14,7 +14,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   Using the assignment operator `=` to assign a value to a variable.
 
 - What characters are allowed in variable names?
-  Letters, digits, underscores, and dollar signs, and case sensitive variables.
+  Letters (can't start with a number), digits, underscores, and dollar signs, and case sensitive variables.
 
 - What does it mean to say that variable names are "case sensitive"?
   "Case sensitive" means 'a' and 'A' are different variables.
@@ -35,7 +35,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   You don't have to use the var keyword to assign it a new variable, you only have to use the variable name, the equals sign, and the new value attribute.
 
 - What is the difference between `null` and `undefined`?
-  The difference between `null` and `undefined` is that they are equal in value but different in type.
+  The difference between `null` is technically a value, `undefined` is an unassigned value.
 
 - Why is it a good habit to include "labels" when you log values to the browser console?
   It's a good habit to add a short string that describes the variable or value being logged.
