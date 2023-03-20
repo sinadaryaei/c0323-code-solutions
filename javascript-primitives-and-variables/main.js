@@ -1,15 +1,18 @@
 
-// eslint-disable-next-line no-unused-vars, no-undef
+// the string sina daryaei is assgned to variable fullNmae //
+
 const fullName = 'Sina Daryaei';
+
+// the log method of the console object is called with two statements: one is a string and one is a variable //
 
 console.log('value of fullName:', fullName);
 
-// eslint-disable-next-line no-unused-vars
+// the value true is assigned to the variable isCool //
+
 const isCool = true;
 
 console.log('value of isCool:', isCool);
 
-// eslint-disable-next-line no-unused-vars
 const totalPets = 2;
 
 console.log('value of totalPets:', totalPets);
@@ -20,7 +23,6 @@ console.log('typeof of isCool:', typeof isCool);
 
 console.log('typeof of totalPets:', typeof totalPets);
 
-// eslint-disable-next-line no-unused-vars
 const unknown = null;
 
 console.log('value of unknown:', unknown);
