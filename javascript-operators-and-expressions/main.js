@@ -9,7 +9,7 @@ console.log('typeof area:', typeof area);
 const bill = 20;
 const payment = 100;
 
-const change = bill - payment;
+const change = payment - bill;
 
 console.log('value of change:', change);
 console.log('typeof change:', typeof change);
@@ -31,9 +31,9 @@ console.log('value of fullName:', fullName);
 console.log('typeof fullName', typeof fullName);
 
 const ph = 4;
-const isAcidic = true;
+const isAcidic = ph < 7;
 
-console.log('value of isAcidic:', ph < 7);
+console.log('value of isAcidic:', isAcidic);
 console.log('typeof isdAcidic:', typeof isAcidic);
 
 const headCount = 300;
