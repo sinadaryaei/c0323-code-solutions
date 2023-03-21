@@ -1,9 +1,10 @@
 const student = {
   firstName: 'Sina',
   lastName: 'Daryaei',
-  age: 30,
-  previousOccupation: 'lab technician'
+  age: 30
 };
+
+student.previousOccupation = 'lab technician';
 
 const fullName = student.firstName + ' ' + student.lastName;
 
