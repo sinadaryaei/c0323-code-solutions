@@ -21,8 +21,7 @@ console.log(student);
 const vehicle = {
   make: 'Toyota',
   model: 'Suv',
-  year: '2020',
-  color: 'gray'
+  year: '2020'
 };
 
 vehicle['color'] = 'gray';
