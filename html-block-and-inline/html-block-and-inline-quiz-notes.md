@@ -21,6 +21,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 All student notes should be written here.
 
+  Use ```<em>``` and ```<strong>``` so the browsers can recognize it when
+  somone is using a assitance program.
+
 
 How to write `Code Examples` in markdown
 
