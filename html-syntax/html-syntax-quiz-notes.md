@@ -5,10 +5,15 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Give five examples of HTML element types.
+  ```<html>```, ```<head>```, ```<body>```, ```<title>```, ```<p>```
 
 - What is the purpose of HTML attributes?
+  The purpose of HTML attributes is to provide additional information abou the ocnents of the element.
 
 - Give an example of an HTML entity (escape character).
+  The left angled bracket ```<``` can be used, using the escape codes or the entity references; ```&lt;``` or &#60.
+
+
 
 ## Notes
 
