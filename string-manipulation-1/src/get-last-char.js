@@ -1,4 +1,4 @@
 /* exported getLastChar */
 function getLastChar(string) {
-  return string.charAt();
+  return string.slice(-1);
 }
