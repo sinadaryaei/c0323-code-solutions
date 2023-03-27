@@ -1,4 +1,4 @@
 /* exported capitalize */
 function capitalize(word) {
-  return word.toUpperCase();
+  return word.toUppercase();
 }
