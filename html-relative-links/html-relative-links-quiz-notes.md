@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - How do you indicate the relative link to a parent directory?
-  By using the ```..``` dot notation.
+  By using the ```../``` dot notation.
 
 - How do you indicate the relative link to a child directory?
   For a child folder, use the name of the child folder,
