@@ -14,7 +14,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   With the hash ```#``` character.
 
 - In CSS, how do you select an element by its `id` attribute?
-  Using the hash character ```#``` followed by id of the element
+  Using the tag name by itself.
 
 ## Notes
 
