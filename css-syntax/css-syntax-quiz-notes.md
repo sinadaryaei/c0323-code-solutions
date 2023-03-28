@@ -5,13 +5,16 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the names of the individual pieces of a CSS rule?
+  Selector and declaration block ie: ```body {color: #090302; font-family: sans-serif;}```
 
 - In CSS, how do you select elements by their `class` attribute?
+  Write a period then the character, followed by the name of the class.
 
 - In CSS, how do you select elements by their tag name?
+  With the hash ```#``` character.
 
 - In CSS, how do you select an element by its `id` attribute?
-
+  Using the hash character ```#``` followed by id of the element
 
 ## Notes
 
