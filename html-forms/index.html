@@ -5,9 +5,40 @@
   </head>
   <body>
     <h1>Coding Form!</h1>
-    <label>
-      Whould you  like to sign up for more information?
-      <input type="checkbox" name="Sign me up!"/>
-    </label>
+    <form>
+      <p>Email
+        <br/><input type="text" name="Email"/><br/>
+      </p>
+      <p>Why is coding cool? <br>
+        <select name="Select an option">
+          <option value="Select an option">Select an option</option>
+          <option value="Because it's intresting">Because it's intresting</option>
+          <option value="Because it's fun">Because it's fun</option>
+          <option value="Becasue it's powerful">Because it's powerful</option>
+        </select>
+    </form>
+    <form>
+      <p>Favorite language (choose one) <br />
+      <div>
+        <input type="checkbox" name="service" value="HTML" checked="checked"/> HTML
+        <input type="checkbox" name="service" value="CSS" checked="checked"/> CSS
+        <input type="checkbox" name="service" value="JavaScript" checked="checked"/> JavaScript
+      </div>
+      </p>
+    </form>
+    <div>
+      Would you like to sign up for more information?<br />
+      <label for="name">
+        <input type="checkbox" name="Sign me up!"/>
+      </label> Sign me up!
+    </div>
+    <form>
+      <p>Comments <br/>
+        <textarea name="Comments" cols="30" rows="4"/></textarea>
+      <div>
+        <input type="Submit" value="Submit"/><br />
+      </div>
+      </p>
+    </form>
   </body>
 </html>
