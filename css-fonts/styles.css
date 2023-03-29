@@ -1,0 +1,10 @@
+.head {
+  font-family: 'Alkatra', cursive;
+}
+h2 {
+  font-style: italic;
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.9;
+}
