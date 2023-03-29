@@ -5,6 +5,11 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the six primary HTML elements for creating tables?
+  html-web-page
+
+- What purpose do the `thead` and `tbody` elements serve?
+
+- Give two examples of data that would lend itself well to being displayed in a table.
   ```<table>```, ```<thead>```, ```<tbody>```, ```<tfoot>```, ```<th>```, ```<tr>```
 
 - What purpose do the `thead` and `tbody` elements serve?
