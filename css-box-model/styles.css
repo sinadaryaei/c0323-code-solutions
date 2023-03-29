@@ -4,3 +4,11 @@ button.language {
 
   /* your code here 👇 */
 }
+
+.language {
+  margin-left: 12px;
+  margin-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+}
