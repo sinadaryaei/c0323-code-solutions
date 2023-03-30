@@ -5,10 +5,12 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a pseudo-class?
-
+  Its a keyword addeded to the selector that specifies
+  a special state of the selected elements.
 
 - What are CSS pseudo-classes useful for?
-
+  It's useful for defining the special state of an
+  element.
 
 ## Notes
 
