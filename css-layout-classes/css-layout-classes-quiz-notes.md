@@ -5,6 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Why do two div elements "vertically stack" on one another by default?
+
 Because they are block elements
 
 - What is the default `flex-direction` of an element with `display: flex`?
@@ -18,6 +19,7 @@ Container, column, and row.
 
 - What is the purpose of a **container**?
 To house the page layout.
+
 
 ## Notes
 
