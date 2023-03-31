@@ -3,12 +3,10 @@ h3 {
   font-weight: bold;
   color: #ec5d57;
   text-transform: uppercase;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 p {
-  display: flex;
-  flex-basis: calc(100% / 3);
   font-family: "Brandon Grotesque", sans-serif;
   font-weight: bold;
   font-size: small;
@@ -17,8 +15,8 @@ p {
 }
 
 input[type="text"] {
-  width: 70%;
-  padding: 12px 20px;
+  width: 90%;
+  padding: 12px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -28,8 +26,8 @@ select {
   appearance: none;
   outline: 0;
   background: #f3f3f3;
-  width: 70%;
-  padding: 12px 20px;
+  width: 90%;
+  padding: 12px 10px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -37,7 +35,6 @@ select {
 }
 
 input[type="submit"] {
-  display: flex;
   font-family: "Brandon Grotesque", sans-serif;
   font-size: large;
   font-weight: 500;
@@ -47,11 +44,11 @@ input[type="submit"] {
   color: white;
   padding: 7px 22px;
   cursor: pointer;
-  margin-left: 51%;
+  margin-left: 55%;
   border-radius: 50px;
 }
 
 div {
-  width: 584px;
+  width: 500px;
   margin: auto;
 }
