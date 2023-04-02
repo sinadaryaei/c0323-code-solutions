@@ -1,5 +1,5 @@
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -20,8 +20,25 @@ body {
 }
 
 .image {
+  max-width: 50%;
+  max-height: 50%;
   padding: 0;
   width: 80%;
   border-radius: 50%;
   background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.character-description,
+.title {
+  font-size: normal;
+  text-align: center;
 }
