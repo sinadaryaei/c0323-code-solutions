@@ -10,7 +10,16 @@
   font-family: Karla, sans-serif;
   text-align: center;
   width: auto;
+}
+
+h1 {
   line-height: 150%;
+}
+
+.text-body {
+  text-align: center;
+  font-family: Karla, sans-serif;
+  line-height: 250%;
 }
 
 .column-one-left {
@@ -20,29 +29,6 @@
 input[type="submit"] {
   font-family: "Brandon Grotesque", sans-serif;
   font-size: large;
-
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .row {
-    display: flex;
-    margin-bottom: 20px;
-  }
-
-  .column {
-    flex: 1;
-  }
-
-  .image-column {
-    margin-right: 20px;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
   font-weight: 500;
   text-transform: uppercase;
   background-color: white;
