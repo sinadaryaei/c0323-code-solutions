@@ -5,16 +5,20 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Why do we log things to the console?
+Making sure the code is working.
 
 - What is the purpose of events and event handling?
+
 
 - Are all possible parameters required to use a JavaScript method or function?
 
 - What method of element objects lets you set up a function to be called when a specific type of event occurs?
 
 - What is a callback function?
+Interview question.
 
 - What object is passed into an event listener callback when the event fires?
+
 
 - What is the `event.target`? If you weren't sure, how would you check? Where could you get more information about it?
 
