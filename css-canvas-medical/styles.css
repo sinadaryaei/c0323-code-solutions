@@ -1,0 +1,46 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+  height: 60px;
+  object-fit: contain;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 50px;
+}
+
+a {
+  color: #acacac;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #00a1c4;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #294464;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-left: 50px;
+}
