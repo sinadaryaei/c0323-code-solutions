@@ -1,19 +1,17 @@
-console.log('hello, world');
+const $heading = document.querySelector('h1');
+console.log('$heading', $heading);
+console.dir($heading);
 
-const el = document.querySelector('h1');
-console.log(document.querySelector('h1'));
-console.dir(el);
+const $explanation = document.querySelector('#explanation');
+console.log('$explanation', $explanation);
+console.dir($explanation);
 
-const id = document.querySelector('[id]');
-console.log(document.querySelector('[id]'));
-console.dir(id);
+const $hint = document.querySelector('.hint');
+console.log('$hint', $hint);
+console.dir($hint);
 
-const cl = document.querySelector('.hint');
-console.log(document.querySelector('.hint'));
-console.dir(cl);
+const $paragraphs = document.querySelectorAll('p');
+console.log('$paragraphs', $paragraphs);
 
-const p = document.querySelectorAll('p');
-console.log('p', p);
-
-const link = document.querySelectorAll('.example-link');
-console.log('.example-link', link);
+const $links = document.querySelectorAll('.example-link');
+console.log('$links', $links);
