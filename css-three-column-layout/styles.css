@@ -16,15 +16,15 @@ body {
 }
 
 .column {
-  flex-basis: 50%;
+  flex-basis: calc(100% / 3);
   padding: 10px;
 }
 
 .image {
-  max-width: 50%;
+  max-width: 80%;
   max-height: 50%;
   padding: 20px;
-  width: 80%;
+  width: 50%;
   border-radius: 50%;
   background-color: white;
   display: block;
@@ -45,5 +45,5 @@ h1 {
 
 .title {
   text-align: center;
-  font-size: 150%;
+  font-size: 20px;
 }
