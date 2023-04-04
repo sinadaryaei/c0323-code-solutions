@@ -12,6 +12,15 @@ function handleMouseover(event) {
   console.log(event);
   console.log(event.target);
 }
-const hoverb = document.querySelector('.hover-button');
 
-hoverb.addEventListener('.hoverb', handleMouseover);
+const hoverButton = document.querySelector('.hover-button');
+
+hoverButton.addEventListener('mouseover', handleMouseover);
+
+function handleDoubleClick(event) {
+  console.log('button double-clicked');
+  console.log(event);
+  console.log(event.target);
+}
+const doubleClickButton = document.querySelector('.double-click-button');
+doubleClickButton.addEventListener('dblclick', handleDoubleClick);
