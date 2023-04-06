@@ -14,6 +14,7 @@ The meta viewport tag is used for mobile-responsive web pages.
 
 All student notes should be written here.
 
+! point and enter for the creation of the html skeleton
 
 How to write `Code Examples` in markdown
 
