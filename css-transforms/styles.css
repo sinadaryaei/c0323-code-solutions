@@ -23,6 +23,7 @@ img.pokeball {
   display: block;
 }
 
+/** new css selector button tag */
 button {
   border: none;
   border-radius: 0.25rem;
@@ -31,6 +32,7 @@ button {
   background-color: gray;
 }
 
+/** new css selector button element new pseudo class focus */
 button:focus {
   outline: none;
 }
@@ -39,6 +41,7 @@ button:active {
   transform: translateY(20px);
 }
 
+/** new css ruleset for all images tag with the class of pokeball which is the first child of pokeball wrapper class */
 .pokeball-wrapper:first-child img.pokeball {
   transform: rotate(-30deg);
 }
