@@ -1,6 +1,6 @@
 /* exported pokedex */
 
-const pokedex = [
+const pokedex = [ /** the array of objects assigne to the variable pokedex. */
   {
     number: '001',
     name: 'Bulbasaur',
@@ -8,7 +8,7 @@ const pokedex = [
     imageUrl: 'images/bulbasaur.png'
   },
   {
-    number: '004',
+    number: '004', /** number property being assigned a string value. */
     name: 'Charmander',
     description: 'It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.',
     imageUrl: 'images/charmander.png'
@@ -57,11 +57,11 @@ const pokedex = [
   }
 ];
 
-function renderPokemon(pokemon) {
+function renderPokemon(pokemon) { /** renderpokemon being defined by a function being called with one argument pokemon. */
   const $colthird = document.createElement('div');
-  $colthird.setAttribute('class', 'column-third');
+  $colthird.setAttribute('class', 'column-third'); /** setattribute of the  */
 
-  const $pokecard = document.createElement('div');
+  const $pokecard = document.createElement('div'); /** createlement method of the document object being called with 1 argument */
   $pokecard.setAttribute('class', 'pokemon-card');
   $colthird.appendChild($pokecard);
 
@@ -74,7 +74,7 @@ function renderPokemon(pokemon) {
   $pokecard.appendChild($poketext);
 
   const $pokename = document.createElement('h2');
-  $pokename.textContent = pokemon.name;
+  $pokename.textContent = pokemon.name; //* name method of the pokemon object .. read it right to left./
   $poketext.appendChild($pokename);
 
   const $number = document.createElement('h3');
@@ -84,8 +84,10 @@ function renderPokemon(pokemon) {
   const $description = document.createElement('p');
   $description.textContent = pokemon.description;
   $poketext.appendChild($description);
+
   return $colthird;
 }
+
 const $row = document.querySelector('.row');
 
 for (let i = 0; i < pokedex.length; i++) {
