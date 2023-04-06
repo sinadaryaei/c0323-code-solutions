@@ -8,24 +8,24 @@
   <link rel="stylesheet" href="pokemon.css">
   <style>
 
-    #card-deck {
+    #card-deck { /** id */
       display: flex;
       flex-wrap: wrap;
     }
 
-    .card-wrapper {
+    .card-wrapper { /** class selector */
       padding: 0.5rem;
       flex-basis: 100%;
-
     }
+
     /* your code here 👇 */
-@media screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) { /** new css rulest for at media screen and min-width 576 px */
   .card-wrapper {
     flex-basis: 50%;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .card-wrapper {
     flex-basis: calc(100% / 3);
   }
