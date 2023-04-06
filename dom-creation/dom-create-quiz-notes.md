@@ -23,7 +23,7 @@ It sets the text content to the element.
 setAttribute() , className , classList.
 
 - What are two advantages of defining a function to do create something (like the work of creating a DOM tree)?
-
+You can reuse the code for that DOM tree.
 
 
 ## Notes
