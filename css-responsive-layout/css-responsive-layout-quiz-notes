@@ -5,14 +5,14 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a **breakpoint** in responsive Web design?
-Its a way to cater to different screen sizes.
+Point of media queries to change to the web page.
 
 
 - What is the advantage of using a percentage (_e.g._ `50%`) `width` instead of a fixed (_e.g._ `px`) `width` for a "column" class in a responsive layout?
-Using the percentage isn't fixed compared to a px because there are differnt number of pixels in each device.
+I'll adjust to different size screens.
 
 - If you introduce CSS rules for a smaller `min-width` _after_ the styles for a larger `min-width` in your style sheet, the CSS rules for the **smaller** `min-width` will "win". Why is that?
-Because of the order.
+Because of the source order.
 
 ## Notes
 
