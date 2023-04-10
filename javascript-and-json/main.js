@@ -15,15 +15,21 @@ const books = [
     author: 'human'
   }
 ];
-console.log('books: ', typeof books);
 
-const myJSON = JSON.stringify(books);
-console.log('JSON.stringify: ', typeof myJSON);
+console.log('Array of books:', books);
+console.log('Type of books:', typeof books);
 
-const info = '{ NumberId: 23423432, stringName: name }';
-const infoJSON = JSON.stringify(info);
-console.log('String: ', typeof JSON.stringify(infoJSON));
+const booksJSON = JSON.stringify(books);
 
-const parse = '{ NumberId: 23423432, stringName: name }';
-const parseJSON = JSON.parse(parse);
-console.log('object string: ', typeof JSON.parse(parseJSON));
+console.log('JSON string:', booksJSON);
+console.log('Type of booksJSON:', typeof booksJSON);
+
+const studentJSON = '{"id": 123, "name": "John Doe"}';
+
+console.log('Student JSON string:', studentJSON);
+console.log('Type of studentJSON:', typeof studentJSON);
+
+const studentObj = JSON.parse(studentJSON);
+
+console.log('Student object:', studentObj);
+console.log('Type of studentObj:', typeof studentObj);
