@@ -3,7 +3,6 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 20px;
   font-family: Avenir, sans-serif;
@@ -19,9 +18,8 @@
 /* The list that will be used to create the navigation bar */
 .nav-bar {
   display: flex;
+  align-items: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 li {
