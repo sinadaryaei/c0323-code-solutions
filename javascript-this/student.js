@@ -6,7 +6,10 @@ const student = {
   getFullName: function () {
     return this.firstName + ' ' + this.lastName;
   },
-  getIntroduction: function (string) {
-    return this.string + this.getFullName + this.subject;
+  getSubject: function () {
+    return this.subject;
+  },
+  getIntroduction: function () {
+    return 'Hello, my name is ' + this.getFullName() + 'and I am studying' + this.getSubject();
   }
 };
