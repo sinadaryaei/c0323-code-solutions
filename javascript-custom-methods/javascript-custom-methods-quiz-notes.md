@@ -14,20 +14,34 @@ A method is a function which is a property of an object.
 Method definition is a shorter syntax for defining a function property in an object initializer.
 
 - Describe method **call** syntax (structure).
-
+```const obj = {
+  foo() {
+    return 'bar';
+  }
+};
+```
 - How is a method different from any other function?
+A method is a procedure or function in object-oriented programming. A function is a group of reusable code which can be called anywhere in your program
 
-- What is the **defining characteristic** of
-Object-Oriented Programming?
+- What is the **defining characteristic** of Object-Oriented Programming?
+encapsulation, polymorphism, and inheritance.
+
 
 - What are the four "principles" of Object-Oriented Programming?
 
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
 - What is "abstraction"?
+The most important part of the term "abstraction" boils down to being able to work with (possibly) complex things in simple ways. Y
 
 - What does API stand for?
+Application Programming Interface
 
 - What is the purpose of an API?
-
+To integrate new applications with existing software systems.
 
 ## Notes
 
