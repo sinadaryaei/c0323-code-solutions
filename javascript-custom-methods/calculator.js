@@ -14,9 +14,10 @@ const calculator = {
   divide: function (x, y) {
     return x / y;
   },
-  sqaure: function (x) {
-    const squared = x * x;
-    return squared;
+  square: function (x) {
+    return x * x;
   }
+  // sumAll: function (numbers){
 
+  // }
 };
