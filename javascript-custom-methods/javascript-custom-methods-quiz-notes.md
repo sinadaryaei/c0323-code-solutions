@@ -5,43 +5,37 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a **method**?
+Function which is a property of an object.
 
-- How can you tell the difference between a method
-_definition_ and a method _call_?
+- How can you tell the difference between a method _definition_ and a method _call_?
 A method is a function which is a property of an object.
 
 - Describe method **definition** syntax (structure).
 Method definition is a shorter syntax for defining a function property in an object initializer.
 
 - Describe method **call** syntax (structure).
-```const obj = {
-  foo() {
-    return 'bar';
-  }
-};
-```
+Methods name the arguments and it being called upon the objects.
+
 - How is a method different from any other function?
-A method is a procedure or function in object-oriented programming. A function is a group of reusable code which can be called anywhere in your program
+Method is binded to a object.
 
 - What is the **defining characteristic** of Object-Oriented Programming?
-Encapsulation, polymorphism, and inheritance.
-
+Holds both data and functionality.
 
 - What are the four "principles" of Object-Oriented Programming?
-
 Abstraction
 Encapsulation
 Inheritance
 Polymorphism
 
 - What is "abstraction"?
-The most important part of the term "abstraction" boils down to being able to work with (possibly) complex things in simple ways. Y
+The most important part of the term "abstraction" boils down to being able to work with (possibly) complex things in simple ways.
 
 - What does API stand for?
-Application Programming Interface
+Application Programming Interface.
 
 - What is the purpose of an API?
-To integrate new applications with existing software systems.
+Client a simple way to interact with server.
 
 ## Notes
 

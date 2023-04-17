@@ -7,6 +7,7 @@ const calculator = {
   subtract: function (x, y) {
     return x - y;
   },
+  // multiply property being //
   multiply: function (x, y) {
     return x * y;
   },
@@ -14,6 +15,8 @@ const calculator = {
     return x / y;
   },
   sqaure: function (x) {
-    return Math.pow(x, 2);
+    const squared = x * x;
+    return squared;
   }
+
 };
