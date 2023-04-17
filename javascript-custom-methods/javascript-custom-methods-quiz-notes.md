@@ -24,7 +24,7 @@ Method definition is a shorter syntax for defining a function property in an obj
 A method is a procedure or function in object-oriented programming. A function is a group of reusable code which can be called anywhere in your program
 
 - What is the **defining characteristic** of Object-Oriented Programming?
-encapsulation, polymorphism, and inheritance.
+Encapsulation, polymorphism, and inheritance.
 
 
 - What are the four "principles" of Object-Oriented Programming?
