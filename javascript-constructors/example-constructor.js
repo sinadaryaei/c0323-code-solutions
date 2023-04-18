@@ -1,7 +1,7 @@
 function ExampleConstructor() {
 }
-Object.getPrototypeOf('value of ExampleConstructor:', ExampleConstructor);
-Object.getPrototypeOf('typeof property', typeof ExampleConstructor);
+console.log('value of ExampleConstructor:', ExampleConstructor);
+console.log('typeof property', typeof ExampleConstructor);
 
 const cFunction = new ExampleConstructor();
 console.log('value of cFunction', cFunction);
