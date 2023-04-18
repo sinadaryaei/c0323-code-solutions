@@ -1,4 +1,4 @@
 /* exported Student */
-function student() {
+function Student(firstName, lastName, subject) {
 }
-Object.getPrototypeOf(student);
+console.log(Student);
