@@ -7,17 +7,17 @@ console.log('value of anArray:', anArray);
 console.log('typeof anArray:', typeof anArray);
 
 const aFunction = new Function();
-console.log('value of aFunction', aFunction);
-console.log('type of aFunction', typeof aFunction);
+console.log('value of aFunction:', aFunction);
+console.log('type of aFunction:', typeof aFunction);
 
 const aNumber = new Number();
-console.log('value of aNumber', aNumber);
-console.log('typeof aNumber', typeof aNumber);
+console.log('value of aNumber:', aNumber);
+console.log('typeof aNumber:', typeof aNumber);
 
 const aBoolean = new Boolean();
-console.log('value of aBoolean', aBoolean);
-console.log('typeof aBoolean', typeof aBoolean);
+console.log('value of aBoolean:', aBoolean);
+console.log('typeof aBoolean:', typeof aBoolean);
 
-const aString = new String();
-console.log('value of aString', aString);
-console.log('typeof aString', typeof aString);
+const aString = new String('');
+console.log('value of aString:', aString);
+console.log('typeof aString:', typeof aString);
