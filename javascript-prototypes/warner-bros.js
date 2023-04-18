@@ -25,6 +25,7 @@ const warnerPrototype = {
     return description;
   }
 };
+// the setprototypeof method of big O object being called with two arguments //
 Object.setPrototypeOf(yakko, warnerPrototype);
 Object.setPrototypeOf(wakko, warnerPrototype);
 Object.setPrototypeOf(dot, warnerPrototype);
