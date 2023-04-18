@@ -7,9 +7,9 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What does the `new` operator do?
 The new operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function
 - What property of JavaScript functions can store shared behavior for instances created with `new`?
-
+Prototype property.
 - What does the `instanceof` operator do?
-
+The instanceof operator tests to see if the prototype property of a constructor appears anywhere in the prototype chain of an object
 
 ## Notes
 
