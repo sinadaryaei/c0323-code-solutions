@@ -9,9 +9,9 @@ Prototype-based inheritance.
 - What is a prototype in JavaScript?
 A prototype is an object from which other objects can inherit properties and methods.
 - How is it possible to call methods on strings, arrays, and numbers even though those methods don't actually exist on strings, arrays, and numbers?
-
+Borrow them from the prototype.
 - If an object does not have it's own property or method by a given key, where does JavaScript look for it?
-
+In the prototype chain.
 ## Notes
 
 All student notes should be written here.
