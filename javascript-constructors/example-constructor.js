@@ -1,11 +1,14 @@
 function ExampleConstructor() {
 }
-console.log('value of ExampleConstructor:', ExampleConstructor);
-console.log('typeof property', typeof ExampleConstructor);
+const example = new ExampleConstructor();
 
-const cFunction = new ExampleConstructor();
-console.log('value of cFunction', cFunction);
-console.log(cFunction instanceof ExampleConstructor);
+console.log('value of example:', typeof example);
+console.log('typeof property', example);
 
-const newFunction = cFunction;
-console.log('value of newFunction', newFunction);
+console.log('typeof example._proto_', typeof example.__proto__);
+console.log('value of example._proto_', example.__proto__);
+
+console.log('typeof ExampleConstructor.prototype:', typeof ExampleConstructor.prototype);
+console.log('value of ExampleConstructor.prototype:', ExampleConstructor.prototype);
+
+console.log('example instanceof ExampleConstructor', example instanceof ExampleConstructor);
