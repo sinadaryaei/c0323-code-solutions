@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is a client?
  Client requests content from the server.
 - What is a server?
-Servers distrubte application, partition tasks or workloads.
+Servers distrebute application, partition tasks or workloads.
 - Which HTTP method does a browser issue to a web server when you visit a URL?
 The GET.
 - What three things are on the start-line of an HTTP **request** message?
