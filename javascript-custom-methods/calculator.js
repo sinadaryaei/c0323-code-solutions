@@ -1,5 +1,4 @@
 /* exported calculator */
-
 const calculator = {
   add: function (x, y) {
     return x + y;
@@ -7,7 +6,6 @@ const calculator = {
   subtract: function (x, y) {
     return x - y;
   },
-  // multiply property being //
   multiply: function (x, y) {
     return x * y;
   },
@@ -15,9 +13,21 @@ const calculator = {
     return x / y;
   },
   square: function (x) {
-    return x * x;
+    return Math.pow(x, 2);
+  },
+  sumAll: function (numbers) {
+    let numbNew = 0;
+    for (let i = 0; i < numbers.length; i++) {
+      numbNew += numbers[i];
+    }
+    return numbNew;
+  },
+  getAverage: function (numbers) {
+    let average = 0;
+    for (let i = 0; i < numbers.length; i++) {
+      average += numbers[i];
+    }
+    average = average / numbers.length;
+    return average;
   }
-  // sumAll: function (numbers){
-
-  // }
 };

@@ -41,6 +41,18 @@ Client a simple way to interact with server.
 
 All student notes should be written here.
 
+What numbers in the calculator.test.js is the loop
+incrementing through is it line 62 or line 64?
+
+```  sumAll: function (numbers) {
+    let numbNew = 0;
+    for (let i = 0; i < numbers.length; i++) {
+      numbNew += numbers[i];
+    }
+    return numbNew;
+  }
+```
+
 
 How to write `Code Examples` in markdown
 
