@@ -5,8 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a "callback" function?
-
-- Besides adding an event listener callback function to an element or the `document`, what is one way to delay the execution of a JavaScript function until some point in the future?
+A function that is appsed into another function as an arguement.
+- Besides adding an event listener callback
+function to an element or the `document`, what is one way to delay the execution of a JavaScript function until some point in the future?
 
 - How can you set up a function to be called repeatedly without using a loop?
 
