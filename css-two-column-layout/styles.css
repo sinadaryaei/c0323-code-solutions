@@ -1,0 +1,56 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: Karla, sans-serif;
+  text-align: center;
+  width: auto;
+  margin-top: 0;
+}
+
+.text-body {
+  text-align: center;
+  font-family: Karla, sans-serif;
+  line-height: 150%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column-half {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.column-image {
+  flex-basis: 30%;
+  margin-right: 20px;
+}
+
+.column-text {
+  flex-basis: 70%;
+}
+
+.icon {
+  max-width: 100%;
+}
+
+input[type="submit"] {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: large;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: white;
+  color: #ec5d57;
+  padding: 7px 22px;
+  cursor: pointer;
+  margin-left: -200px;
+  border-radius: 1px;
+  border-color: #ec5d57;
+}
