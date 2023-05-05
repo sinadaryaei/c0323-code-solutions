@@ -4,3 +4,4 @@ function toObject(keyValuePair) {
   value[keyValuePair[0]] = keyValuePair[1];
   return value;
 }
+// review and ask questions for this exercise //
